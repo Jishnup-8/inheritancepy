@@ -1,7 +1,7 @@
 # Inheritance
 
-# parent class / Base class /suoerclasss
-
+# parent class / class /suoerclasss
+# Base 
 # class Parent:
 #     pass
 
@@ -30,19 +30,19 @@
 
 # Multiple Inheritance ...
 
-# class Father:
-#     def skills1(self):
-#         print('Driving')
+class Father:
+    def skills1(self):
+        print('Driving')
 
-# class Mother:
-#     def skills2(self):
-#         print('engineer')
-# class Child (Father , Mother):
-#     pass
+class Mother:
+    def skills2(self):
+        print('engineer')
+class Child (Father , Mother):
+    pass
 
-# c = Child()
-# c.skills1()
-# c.skills2()
+c = Child()
+c.skills1()
+c.skills2()
 
 
 # Multilevel inheritance ..  
