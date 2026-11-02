@@ -30,19 +30,19 @@
 
 # Multiple Inheritance ...
 
-class Father:
-    def skills1(self):
-        print('Driving')
+# class Father:
+#     def skills1(self):
+#         print('Driving')
 
-class Mother:
-    def skills2(self):
-        print('engineer')
-class Child (Father , Mother):
-    pass
+# class Mother:
+#     def skills2(self):
+#         print('engineer')
+# class Child (Father , Mother):
+#     pass
 
-c = Child()
-c.skills1()
-c.skills2()
+# c = Child()
+# c.skills1()
+# c.skills2()
 
 
 # Multilevel inheritance ..  
@@ -99,6 +99,6 @@ c.skills2()
 
     
 
-# Page 281 activity Monday at the pdf ...
+
 
 
